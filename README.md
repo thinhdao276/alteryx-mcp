@@ -13,7 +13,7 @@ It wraps `alteryx_mcp/alteryx_mcp.py` from this repository.
 
 ## Demo
 
-<video src="summarize_test.mov" controls="controls" style="max-width: 100%;"></video>
+[Watch the demo video](summarize_test.mov)
 
 ## Features
 
