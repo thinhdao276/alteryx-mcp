@@ -11,6 +11,10 @@ An MCP server that exposes comprehensive Alteryx workflow manipulation tools ove
 
 It wraps `alteryx_mcp/alteryx_mcp.py` from this repository.
 
+## Demo
+
+<video src="summarize_test.mov" controls="controls" style="max-width: 100%;"></video>
+
 ## Features
 
 ### 1. Workflow Analysis
