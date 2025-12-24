@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alteryx-mcp"
+version = "0.1.0"
+description = "Local MCP server exposing Alteryx workflow tools (summarize, rewrite connections)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Alteryx MCP Developer" }]
+license = { text = "MIT" }
+dependencies = [
+  "mcp[cli]>=1.13.0",
+]
+
+[project.scripts]
+alteryx-mcp = "alteryx_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["utils*"]
+exclude = ["tests*"]

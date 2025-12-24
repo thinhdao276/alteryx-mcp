@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="174" width="804" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description</Text>
+          <Font name="Segoe UI" size="9.75" style="3" />
+          <TextColor name="White" />
+          <FillColor r="0" g="165" b="135" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="78" width="804" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Title</Text>
+          <Font name="Segoe UI" size="9.75" style="3" />
+          <TextColor name="White" />
+          <FillColor r="0" g="165" b="135" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="150" y="174" width="708" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Creating Generic tables for KPI
+</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="150" y="78" width="708" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Generic Workflow Title</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="165" b="133" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="3918" y="1101" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="17" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>True</CacheData>
+            <Query>select SCHEMA.TABLE.Col1,
+	SCHEMA.TABLE.Col2,
+	SCHEMA.TABLE.Col3,
+	SCHEMA.TABLE.Col4,
+	SCHEMA.TABLE.Col5,
+	SCHEMA.TABLE.Col6 
+from SCHEMA.TABLE 
+where SCHEMA.TABLE.Col1 = 1 
+	and SCHEMA.TABLE.Col2 = '010' 
+	and SCHEMA.TABLE.Col6 = 'S20'</Query>
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+            <Connection DcmType="ConnectionId">00000000-0000-0000-0000-000000000000</Connection>
+            <Table />
+            <NoProgress>False</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:GenericConnection
+Query=select SCHEMA.TABLE.Col1...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Col1" source="File: select SCHEMA.TABLE.Col1,&#10; SCHEMA.TABLE.Col2,&#10; SCHEMA.TABLE.Col3,&#10; SCHEMA.TABLE.Col4,&#10; SCHEMA.TABLE.Col5,&#10; SCHEMA.TABLE.Col6 &#10;from SCHEMA.TABLE &#10;where SCHEMA.TABLE.Col1 = 1 &#10; and SCHEMA.TABLE.Col2 = '010' &#10; and SCHEMA.TABLE.Col6 = 'S20'" type="Int16" />
+            <Field name="Col2" size="3" source="File: select SCHEMA.TABLE.Col1,&#10; SCHEMA.TABLE.Col2,&#10; SCHEMA.TABLE.Col3,&#10; SCHEMA.TABLE.Col4,&#10; SCHEMA.TABLE.Col5,&#10; SCHEMA.TABLE.Col6 &#10;from SCHEMA.TABLE &#10;where SCHEMA.TABLE.Col1 = 1 &#10; and SCHEMA.TABLE.Col2 = '010' &#10; and SCHEMA.TABLE.Col6 = 'S20'" type="WString" />
+            <Field name="Col3" size="3" source="File: select SCHEMA.TABLE.Col1,&#10; SCHEMA.TABLE.Col2,&#10; SCHEMA.TABLE.Col3,&#10; SCHEMA.TABLE.Col4,&#10; SCHEMA.TABLE.Col5,&#10; SCHEMA.TABLE.Col6 &#10;from SCHEMA.TABLE &#10;where SCHEMA.TABLE.Col1 = 1 &#10; and SCHEMA.TABLE.Col2 = '010' &#10; and SCHEMA.TABLE.Col6 = 'S20'" type="WString" />
+            <Field name="Col4" source="File: select SCHEMA.TABLE.Col1,&#10; SCHEMA.TABLE.Col2,&#10; SCHEMA.TABLE.Col3,&#10; SCHEMA.TABLE.Col4,&#10; SCHEMA.TABLE.Col5,&#10; SCHEMA.TABLE.Col6 &#10;from SCHEMA.TABLE &#10;where SCHEMA.TABLE.Col1 = 1 &#10; and SCHEMA.TABLE.Col2 = '010' &#10; and SCHEMA.TABLE.Col6 = 'S20'" type="Int32" />
+            <Field name="Col5" source="File: select SCHEMA.TABLE.Col1,&#10; SCHEMA.TABLE.Col2,&#10; SCHEMA.TABLE.Col3,&#10; SCHEMA.TABLE.Col4,&#10; SCHEMA.TABLE.Col5,&#10; SCHEMA.TABLE.Col6 &#10;from SCHEMA.TABLE &#10;where SCHEMA.TABLE.Col1 = 1 &#10; and SCHEMA.TABLE.Col2 = '010' &#10; and SCHEMA.TABLE.Col6 = 'S20'" type="Double" />
+            <Field name="Col6" size="25" source="File: select SCHEMA.TABLE.Col1,&#10; SCHEMA.TABLE.Col2,&#10; SCHEMA.TABLE.Col3,&#10; SCHEMA.TABLE.Col4,&#10; SCHEMA.TABLE.Col5,&#10; SCHEMA.TABLE.Col6 &#10;from SCHEMA.TABLE &#10;where SCHEMA.TABLE.Col1 = 1 &#10; and SCHEMA.TABLE.Col2 = '010' &#10; and SCHEMA.TABLE.Col6 = 'S20'" type="WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="377">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="8561" y="2909" width="409" height="207" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Debug</Caption>
+          <Style TextColor="#314c4a" FillColor="#fac7fa" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Debug</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="374">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="8586" y="2970" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>Contains('123456', [Field_A])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains('123456', [Field_A])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="375">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="8694" y="2958" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field_B" selected="False" />
+                <SelectField field="Field_C" selected="True" />
+                <SelectField field="Field_D" selected="True" />
+                <SelectField field="Field_E" selected="True" />
+                <SelectField field="Field_F" selected="True" />
+                <SelectField field="Field_G" selected="True" />
+                <SelectField field="Field_H" selected="False" />
+                <SelectField field="Field_I" selected="True" />
+                <SelectField field="Field_J" selected="False" />
+                <SelectField field="Field_A" selected="True" />
+                <SelectField field="Field_K" selected="True" />
+                <SelectField field="Field_L" selected="True" />
+                <SelectField field="Field_M" selected="True" />
+                <SelectField field="Field_N" selected="True" />
+                <SelectField field="Field_O" selected="True" />
+                <SelectField field="Field_P" selected="True" />
+                <SelectField field="Field_Q" selected="True" />
+                <SelectField field="Field_R" selected="True" />
+                <SelectField field="Field_S" selected="True" />
+                <SelectField field="Field_T" selected="True" />
+                <SelectField field="Field_U" selected="True" />
+                <SelectField field="Field_V" selected="True" />
+                <SelectField field="Field_W" selected="True" />
+                <SelectField field="Field_X" selected="True" />
+                <SelectField field="Field_Y" selected="True" />
+                <SelectField field="Field_Z" selected="False" />
+                <SelectField field="Field_AA" selected="True" />
+                <SelectField field="Field_AB" selected="False" />
+                <SelectField field="Field_AC" selected="False" />
+                <SelectField field="Field_AD" selected="True" />
+                <SelectField field="Field_AE" selected="False" />
+                <SelectField field="Field_AF" selected="True" />
+                <SelectField field="Field_AG" selected="True" />
+                <SelectField field="Field_AH" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="376">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="8886" y="2958" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\GenericUser\AppData\Local\Temp\Engine_12345_0feb1a49aaf54f57bdaba369071854d1_\Engine_12345_6c23b33ff991f7498e50a89d49c005f7~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="378">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="8790" y="2958" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Field_P" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Field_P - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="374" Connection="True" />
+      <Destination ToolID="375" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="375" Connection="Output" />
+      <Destination ToolID="378" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="378" Connection="Output" />
+      <Destination ToolID="376" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <SortedGrouping value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="True" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Test Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="00000000-0000-0000-0000-000000000000" />
+      <Telemetry>
+        <PreviousWorkflowId value="00000000-0000-0000-0000-000000000000" />
+        <OriginWorkflowId value="00000000-0000-0000-0000-000000000000" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

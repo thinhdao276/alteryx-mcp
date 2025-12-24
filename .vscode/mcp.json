@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "alteryx": {
+            "command": "/Users/ed/alteryx-mcp/.venv/bin/python",
+            "args": [
+                "-m",
+                "alteryx_mcp.server"
+            ],
+            "type": "stdio"
+        }
+    }
+}
+
